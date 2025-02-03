@@ -1,0 +1,27 @@
+@import "tailwindcss";
+/* Apply the Google Fonts globally */
+
+body {
+  font-family: "Roboto", sans-serif; /* Default font for the whole body */
+}
+
+/* Optional: Apply Mulish font for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif; /* Heading font */
+}
+
+/* Optional: You can add specific font styles as needed */
+.bold-text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700; /* Example for bold font */
+}
+
+.italic-text {
+  font-family: "Mulish", sans-serif;
+  font-style: italic;
+}

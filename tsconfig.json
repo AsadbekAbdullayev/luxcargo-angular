@@ -16,7 +16,13 @@
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022"
+    "module": "ES2022",
+    "baseUrl": "./", // Make sure to set the base URL to the root
+    "paths": {
+      "@assets/*": ["public/assets/*"], // Alias for the assets folder
+      "@app/*": ["src/app/*"], // Alias for the app folder
+      "@env/*": ["src/environments/*"] // Alias for the environments folder
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
